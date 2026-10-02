@@ -11,13 +11,11 @@ files/            CV, drafts, syllabi, statements (PDFs) go here
 .nojekyll         Tells GitHub to serve the files as-is
 ```
 
-## Put it online (about 10 minutes)
-
+## Put it online Instructions ##
 1. Sign in at github.com and click **New repository**.
 2. Name it exactly `YOUR-USERNAME.github.io` (e.g. `calhowland.github.io`). Set it to **Public**. Create it.
 3. On the new repo page, click **uploading an existing file**. Drag in everything from this folder
    (index.html, teaching.html, style.css, .nojekyll, and the images and files folders). Click **Commit changes**.
-   - `.nojekyll` is hidden on Mac; press Cmd+Shift+. in Finder to show it. (The site works without it too.)
 4. Go to **Settings → Pages**. Under "Build and deployment", choose **Deploy from a branch**, branch **main**, folder **/ (root)**. Save.
 5. After a minute or two the site is live at `https://YOUR-USERNAME.github.io`.
 
